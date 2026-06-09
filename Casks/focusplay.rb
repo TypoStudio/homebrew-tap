@@ -8,7 +8,6 @@ cask "focusplay" do
   homepage "https://github.com/TypoStudio/focus-play"
 
   auto_updates false
-  depends_on macos: ":ventura"
 
   app "FocusPlay.app"
 
