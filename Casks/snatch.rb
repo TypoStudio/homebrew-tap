@@ -7,7 +7,7 @@ cask "snatch" do
   desc "Move & resize any window from anywhere with a modifier + mouse"
   homepage "https://github.com/TypoStudio/snatch"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Snatch.app"
 
