@@ -1,6 +1,6 @@
 cask "focusplay" do
-  version "1.0.3"
-  sha256 "9970bec293e6e114ebd73b42932544a8242cdf8542da8cc35a5f3c4edf42dcf2"
+  version "1.0.4"
+  sha256 "bc2621131be92883f1930bf44cb1b30d58c62110a5f406db1b079eae4d87f14f"
 
   url "https://github.com/TypoStudio/focus-play/releases/download/v#{version}/FocusPlay-#{version}.dmg"
   name "FocusPlay"
