@@ -1,6 +1,6 @@
 cask "ai-usage" do
-  version "0.1.1"
-  sha256 "2d9ea83819cbe7bcfac9b639161875ab7edb909207e485408797913758e93b27"
+  version "0.1.2"
+  sha256 "bef9ab5ffbe7b13eb0e32815c7b6982a2a21494f1678e7415eb26bef5f21e1d6"
 
   url "https://github.com/TypoStudio/ai-usage/releases/download/v#{version}/AIUsage-#{version}.dmg"
   name "AI Usage"
