@@ -1,6 +1,6 @@
 cask "ai-usage" do
-  version "0.1.5"
-  sha256 "f51a339da5fb30a7d64d5fc7d5cdad4d99bd279ef07aa7a26ef2656239995abb"
+  version "0.1.6"
+  sha256 "e91ad16d1fcf5e0e5da4ca4d60e17eef274681b18a85e593bd54b412804e9275"
 
   url "https://github.com/TypoStudio/ai-usage/releases/download/v#{version}/AIUsage-#{version}.dmg"
   name "AI Usage"
@@ -11,6 +11,7 @@ cask "ai-usage" do
   depends_on macos: :sonoma
 
   app "AIUsage.app"
+  binary "#{appdir}/AIUsage.app/Contents/Helpers/aiusage"
 
   zap trash: [
     "~/Library/Caches/com.typostudio.aiusage",
